@@ -1,2 +1,4 @@
 const langs = ["C is fun", "Python is cool", "JavaScript is amazing"];
-console.log(langs.join("\n"));
+for (const lang of langs) {
+  console.log(lang);
+
